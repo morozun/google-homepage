@@ -1,0 +1,42 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 50%;
+}
+.bar {
+    display: inline-flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 25%;
+}
+.buttons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+  }
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+li {
+    float: left;
+}
